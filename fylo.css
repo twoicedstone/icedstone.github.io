@@ -1,0 +1,433 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+  }
+
+  body{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+  }
+
+  main{
+	width: 400px;
+	background-color: white;
+  }
+
+  main input{
+	color: hsl(0, 0%, 75%);
+  }
+
+  .topmost{
+	display: flex;
+	justify-content: space-between;
+	margin: 1.5rem 1.5rem 5rem 1.5rem;
+  }
+
+  #logo{
+	width: 90px;
+  }
+
+  .nav{
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+  }
+
+  .nav a{
+	text-decoration: none;
+	color: hsl(238, 22%, 44%);
+  }
+
+  .introduction{
+	background-image: url(./images/bg-curve-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	padding-bottom: 8rem;
+  }
+
+  .introduction img{
+	margin: 0 1.5rem 0 1.5rem;
+	width: 350px;
+	padding: 0 1.5rem 0 1.5rem;
+  }
+
+  .introduction h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 3rem 1.5rem 0 1.5rem;
+	color: hsl(243, 87%, 12%)
+  }
+
+  .introduction p{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin: 2rem 1.5rem 2rem 1.5rem;
+	color: hsl(243, 87%, 12%);
+  }
+
+  .introduction input{
+	width: 330px;
+	margin-left: 0.8rem;
+	padding: 0.7rem;
+	margin: 0rem 1.5rem 1rem 2.1rem;
+  }
+
+  #get-started input{
+	background-color: hsl(224, 93%, 58%);
+	color:hsl(240, 75%, 98%);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+  }
+
+  #get-started input:hover{
+	opacity: 0.5;
+  }
+
+  .second{
+	background-color: hsl(240, 75%, 98%);
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+  }
+
+  .second h2{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	margin: 3rem 1.5rem 0 1.5rem;
+	color: hsl(243, 87%, 12%);
+  }
+  
+  .body-2{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: hsl(238, 22%, 44%);
+	margin: 2rem 1.5rem 2rem 1.5rem;
+  }
+
+  .see{
+	display: flex;
+	gap: 0.5rem;
+	margin: 0rem 4rem 0 4rem;
+	padding: 0.7rem 2rem 0.3rem 2rem;
+  }
+
+  .see a{
+	margin-left: 1.5rem;
+	text-decoration: none;
+	color: hsl(170, 45%, 43%)
+  }
+  
+  #illustration-2{
+	width: 350px;
+	margin: 0 1.5rem 0 1.5rem;
+	padding: 0 1.5rem 0 1.5rem;
+	background-repeat: no-repeat;
+  }
+
+  .quote{
+	width: 300px;
+	margin-left: 3rem;
+	margin-top: 3rem;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  #quote-body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10.5px;
+	font-weight: 400;
+	margin-top: 0.5rem;
+	color: hsl(243, 87%, 12%);
+  }
+
+  #avatar{
+	width: 30px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 1.5rem;
+	margin-right: 0.5rem;
+  }
+
+  #avatar-details{
+	margin-top: 1.5rem;
+  }
+
+  #name{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	color: hsl(243, 87%, 12%);
+  }
+
+  #position{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8px;
+	font-weight: 400;
+	color: hsl(243, 87%, 12%);
+  }
+
+  .third{
+	background-color: hsl(238, 22%, 44%);
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+  }
+
+  .third h3{
+	margin-bottom: 1.5rem;
+	color: hsl(240, 75%, 98%);
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+  }
+
+  .third p{
+	margin: 0 3rem 1.5rem 3rem;
+	font-size: 15px;
+	color: white;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+  }
+
+  .third input{
+	width: 250px;
+	margin-left: 0.8rem;
+	padding: 0.7rem;
+	margin: 0rem 1.5rem 1rem 2.1rem;
+  }
+
+  #for-free input{
+	margin-left: 2rem;
+	padding: 1rem 4.8rem 1rem 4.8rem;
+	text-decoration: none;
+	background-color: hsl(224, 93%, 58%);
+	border-radius: 5px;
+	color:hsl(240, 75%, 98%);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+  }
+
+  #for-free input:hover{
+	opacity: 0.5;
+  }
+
+  .bottom{
+	background-color: hsl(243, 87%, 12%);
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+  }
+
+  #bottom-logo{
+	width: 180px;
+	filter:brightness(0) invert(1);
+	margin-left: 3rem;
+	margin-bottom: 3rem;
+  }
+
+  .contact img{
+	float: left;
+	margin-left: 3rem;
+  }
+
+  .contact p{
+	margin-left: 6rem;
+	margin-bottom: 1.5rem;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  }
+
+  .info{
+	margin-top: 4rem;
+  }
+
+  .info a{
+	color: white;
+	margin-left: -1.2rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+  }
+
+  .info a:hover{
+	color: hsl(224, 93%, 58%);
+  }
+
+  .socials{
+	display: flex;
+	gap: 0.8rem;
+	justify-content: center;
+  }
+
+  .socials i{
+	color: white;
+	border: 1px solid white;
+	padding: 7px;
+	border-radius: 20px;
+  }
+
+  .socials i:hover{
+	color: hsl(224, 93%, 58%);
+	border-color: hsl(224, 93%, 58%);
+  }
+
+  @media only screen and (min-width: 1130px) {
+	main{
+	  width: 100%;
+	}
+
+	.topmost{
+	  margin-top: 3rem;
+	}
+
+	.introduction {
+	  display: flex;
+	  padding-bottom: 15rem;
+	  background-image: url(./images/bg-curve-desktop.svg);
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	}
+
+	.introduction img{
+	  width: 700px;
+	  margin-right: 2rem;
+	}
+
+	#logo{
+	  width: 120px;
+	  margin-left: 2rem;
+	}
+
+	.nav{
+	  margin-right:2rem;
+	}
+
+	#body-form h1{
+	  text-align: left;
+	  font-size: 35px;
+	}
+
+	#body-form p{
+	  text-align: left;
+	  font-size: 17px;
+	}
+
+	#body-form{
+	  order: -1;
+	  margin-left: 2rem;
+	  margin-top: 3rem;
+	}
+
+	form{
+	  display: flex;
+	  margin-left: -0.7rem;
+	}
+
+	#get-started input{
+	  width: 200px;
+	  margin-left: -1rem;
+	}
+
+	.second{
+	  display: flex;
+	}
+
+	#illustration-2{
+	  width: 700px;
+	  margin-top: 4rem;
+	  margin-right: 3rem;
+	}
+
+	.second-body{
+	  order: -1;
+	  margin-left: 2rem;
+	}
+
+	.second-body h2{
+	  text-align: left;
+	  font-size: 34px;
+	}
+
+	.second-body p{
+	  font-size: 17.5px;
+	}
+
+	#link{
+	  margin-left: -6rem;
+	}
+
+	.quote{
+	  margin-left: 1.3rem;
+	}
+
+	.third{
+	  display: flex;
+	  gap: 15rem;
+	  padding-top: 6rem;
+	  padding-bottom: 2rem;       
+	}
+
+	.third form{
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	.third-body{
+	  text-align: left;
+	}
+
+	.third h3{
+	  margin-left: 3rem;
+	  font-size: 30px;
+	}
+
+	#text-input input{
+	  width: 500px;
+	  margin-right: 5rem;
+	  margin-bottom: 2rem;
+	}
+
+	#for-free input{
+	  margin-right: 20.4rem;
+	}
+
+	.third-body p{
+	  font-size: 17px;
+	}
+
+	.bottom{
+	  display: flex;
+	  gap: 12rem;
+	}
+
+	#bottom-logo{
+	  width: 150px;
+	}
+
+	.info{
+	  display: flex;
+	  gap: 12rem;
+	  margin-top: 6rem;
+	}
+
+	.icons{
+	  margin-top: 6rem;
+	}
+  }
